@@ -10,8 +10,8 @@ export default function HeroSection() {
                     transition={{ delay: 0.1 ,duration: 0.9 }} className='flex flex-col w-full max-w-[900px]'>
                     <h1 className="text-4xl sm:text-6xl md:4xl">SOFTWARE DEVELOPER</h1>
                     <h1 className="py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae itaque, praesentium soluta odio rerum provident, quis dicta ipsam vero quidem voluptatem, deleniti tenetur possimus. Dolore nulla sed ab quod et.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae itaque, praesentium soluta odio rerum provident, quis dicta ipsam vero quidem voluptatem, deleniti tenetur possimus. Dolore nulla sed ab quod et.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae itaque, praesentium soluta odio rerum provident, quis dicta ipsam vero quidem voluptatem, deleniti tenetur possimus. Dolore nulla sed ab quod et.</h1>
-                    <div className='flex justify-below w-full pb-4 gap-4'>
-                        <div class="flex gap-5 text-2xl sm:text-base ">
+                    <div className='flex w-full pb-4 gap-4'>
+                        <div class="flex gap-5 ">
                             <h1 className="hover:underline">REACT</h1>
                             <h1 className="hover:underline">HTML</h1>
                             <h1 className="hover:underline">CSS</h1>
