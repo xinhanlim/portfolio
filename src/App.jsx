@@ -1,7 +1,12 @@
 import React from 'react';
+import {Route, Switch} from 'wouter'
+import Homepage from './components/Homepage';
 
 export default function App(){
   return (<>
-  <h1> Hello World</h1>
+   <Switch>
+    <Route path='/' component={Homepage}/>
+   </Switch>
+
   </>)
 }

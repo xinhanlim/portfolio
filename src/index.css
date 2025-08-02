@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+.quicksand-navBarText {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #282828;
+  }
+
+  .quicksand-navBarText600 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #282828;
+  }
+
+  .quicksand-bodyText {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #282828;
+  }
+  .quicksand-headerText {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #282828;
+  }
+  
