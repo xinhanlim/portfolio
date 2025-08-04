@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="fixed z-50 quicksand-navBarText flex justify-center w-full transition duration-300  bg-[#F2F0EF]/40 backdrop-blur-xl ">
             <div className="flex justify-between items-center w-full px-8 py-6  mx-auto max-w-[1440px] ">
                 <div>
-                    <a href="/" className="quicksand-navBarText600 hover:transition-all duration-300">XH:LIM</a>
+                    <a href="/" className="quicksand-navBarText600 hover:transition-all duration-300">XH:林</a>
                 </div>
                 <div>
                     <ul className="flex text-md gap-10 items-center w-full">
