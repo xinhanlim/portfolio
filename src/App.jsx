@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Switch} from 'wouter'
-import Homepage from './components/Homepage';
+import Homepage from './pages/Homepage';
 
 export default function App(){
   return (<>

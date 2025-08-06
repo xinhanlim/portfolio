@@ -1,7 +1,6 @@
-import React from 'react';
-import Navbar from './Navbar';
-import HeroSection from './HeroSection';
-import ProjectFeature from './ProjectsFeatured';
+import Navbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
+import ProjectFeature from '../components/ProjectsFeatured';
 
 export default function Homepage(){
     return (

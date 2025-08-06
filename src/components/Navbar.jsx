@@ -1,6 +1,3 @@
-import React from "react";
-
-
 export default function Navbar() {
     return (<>
         <nav className="fixed z-50 quicksand-navBarText flex justify-center w-full transition duration-300  bg-[#F2F0EF]/40 backdrop-blur-xl ">
