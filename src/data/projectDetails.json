@@ -5,5 +5,20 @@
         "image": "displayphoto.jpg",
         "description": "Help Foodie to find nearby food"
 
+    },
+
+    {
+        "id":2,
+        "title":"Leaflet Map",
+        "image": "displayphoto.jpg",
+        "description": "Help Foodie to find nearby food"
+
+    },
+        {
+        "id":3,
+        "title":"Leaflet Map",
+        "image": "displayphoto.jpg",
+        "description": "Help Foodie to find nearby food"
+
     }
 ]
