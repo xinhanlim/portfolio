@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export default function HeroSection() {
     return (
         <>
-            <div className="bg-[#F2F0EF] flex flex-col-reverse w-full mx-auto lg:flex-row quicksand-headerText justify-between max-w-[1440px] px-8 py-28 sm:py-38 gap-6 lg:gap-0">
+            <div className="bg-[#F2F0EF] flex flex-col-reverse w-full mx-auto lg:flex-row quicksand-headerText justify-between max-w-[1440px] px-8 pt-28 pb-[80px] sm:pt-38 pb-38 gap-6 lg:gap-0">
                 <motion.div initial={{ x: -50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.1 ,duration: 0.9 }} className='flex flex-col w-full max-w-[900px] pr-2'>
