@@ -2,14 +2,21 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import ProjectFeature from '../components/ProjectSection';
 
-export default function Homepage(){
+export default function Homepage() {
+
     return (
 
-    <div className='bg-[#F2F0EF] w-full overflow-hidden scroll-smooth'>
-    
-     <Navbar/>  
-     <HeroSection/>
-     <ProjectFeature/> 
-     
-    </div>)
+        <div className='bg-[#F2F0EF] w-full overflow-hidden scroll-smooth'>
+
+            <Navbar />
+            <div id="home">
+                 <HeroSection />
+            </div>
+           
+            <div id="project">
+                <ProjectFeature />
+            </div>
+
+
+        </div>)
 }

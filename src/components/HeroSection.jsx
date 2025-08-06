@@ -10,7 +10,7 @@ export default function HeroSection() {
                     <h1 className="text-4xl sm:text-6xl md:4xl">SOFTWARE DEVELOPER</h1>
                     <h1 className="py-4 ">I’ve always loved admiring minimalist design that communicates the creator’s intent effortlessly <br/> And wondering how they could achieve that on screen.<br/>Now, with the skills i had from lessons <br/> I'm excited to make it come to life.</h1>
                     <div className='flex w-full pb-4 gap-4'>
-                        <div class="flex gap-5 ">
+                        <div className="flex gap-5 ">
                             <img src='react.png' className="w-7 h-7"/>
                             <img src='html5.png' className="w-7 h-7"/>
                             <img src='css3.png' className="w-7 h-7"/>

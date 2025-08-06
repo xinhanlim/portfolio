@@ -2,7 +2,7 @@ import { Link } from 'wouter';
 import projectDetails from '../data/projectDetails.json'
 
 
-export default function ProjectCard(props){
+export default function ProjectCard(){
     return (<>
         {projectDetails.map((project) => (
                 <Link href={`/project/${project.id}`} key={project.id}> 
