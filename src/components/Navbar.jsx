@@ -43,16 +43,17 @@ export default function Navbar() {
                 <div>
                     <ul className="flex text-md gap-10 items-center w-full">
                         <li>
-                            <Link href="/#project" className="hover:underline transition-all duration-300" onClick = {handleWorkClick}>PROJECT</Link>
+                            <Link href="/#project" className="hover:underline transition-all duration-300" onClick={handleWorkClick}>PROJECT</Link>
                         </li>
                         <li>
-                            <Link href="/" className="hover:underline transition-all duration-300" onClick = {handleAboutClick}>ABOUT</Link>
+                            <Link href="/" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
                         </li>
                         <li>
                             <a href="/" className="hover:underline transition-all duration-300" >RESUME</a>
                         </li>
                         <li>
-                            <a href="/" className="hover:underline transition-all duration-300" >LINKEDIN</a>
+                            <a href="https://www.linkedin.com/in/xinhanlim/" target="_blank"
+                                rel="noopener noreferrer" className="hover:underline transition-all duration-300" >LINKEDIN</a>
                         </li>
                         <li>
                             <a href="mailto:xhxhan00@gmail.com" className="hover:underline transition-all duration-300" >HOTMAIL</a>
