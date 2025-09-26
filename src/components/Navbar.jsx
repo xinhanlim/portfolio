@@ -41,8 +41,8 @@ export default function Navbar() {
 
 
     return (<>
-        <nav className="fixed z-50 quicksand-navBarText flex flex flex-col items-center  w-full transition duration-300  bg-[#F2F0EF]/40 backdrop-blur-xl ">
-            <div className="flex justify-between items-center w-full px-8 py-6  mx-auto max-w-[1440px] ">
+        <nav className="fixed z-50 quicksand-navBarText flex flex flex-col items-center  w-full transition duration-300 bg-[#F2F0EF]">
+            <div className="flex justify-between items-center w-full px-8 py-8  mx-auto max-w-[1440px] ">
                 <div>
                     <Link href="/" className="quicksand-navBarText600 hover:transition-all duration-300" onClick={handleHomeClick} >XH:林</Link>
                 </div>
@@ -87,10 +87,10 @@ export default function Navbar() {
             {isOpen && (
                 <div className="md:hidden w-full px-8 pb-4">
                     <ul className="flex flex-col items-start h-screen gap-32 h-screen pt-16">
-                        <li className="w-full flex" >
+                        <li className="w-full flex quicksand-headerText" >
                             <Link
                                 href="/#project"
-                                className=" text-4xl font-bold block w-full hover:underline transition-all duration-300"
+                                className=" text-4xl block w-full hover:underline transition-all duration-300"
                                 onClick={handleWorkClick}
                             >
                                 PROJECT
@@ -99,7 +99,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <Link
                                 href="/"
-                                className="text-4xl font-bold block w-full hover:underline transition-all duration-300"
+                                className="text-4xl block w-full hover:underline transition-all duration-300"
                                 onClick={handleAboutClick}
                             >
                                 ABOUT
@@ -108,7 +108,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <a
                                 href="/"
-                                className="text-4xl font-bold block w-full hover:underline transition-all duration-300"
+                                className="text-4xl block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 RESUME
@@ -119,7 +119,7 @@ export default function Navbar() {
                                 href="https://www.linkedin.com/in/xinhanlim/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-4xl font-bold block w-full hover:underline transition-all duration-300"
+                                className="text-4xl  block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 LINKEDIN
@@ -128,7 +128,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <a
                                 href="mailto:xhxhan00@gmail.com"
-                                className="text-4xl font-bold block w-full hover:underline transition-all duration-300"
+                                className="text-4xl block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 HOTMAIL

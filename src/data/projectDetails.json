@@ -2,11 +2,15 @@
     {
         "id":1,
         "name":"WORKOUT DROPLIST",
-        "image": "./Project1Photo.jpg",
+        "image": "/Project1Photo.jpg",
+        "resizeimage":"/project1Resize.jpg",
         "description": "WORKOUT TRAINING LIST",
         "livelink": "https://workout-droplist-fe.vercel.app",
         "githubfe": "https://github.com/xinhanlim/workoutDroplist-FE",
-        "githubbe": "https://github.com/xinhanlim/workoutDroplist-BE"
+        "githubbe": "https://github.com/xinhanlim/workoutDroplist-BE",
+        "timeline" : "3 Months",
+        "summary" : " Workout DropList is created for own personal recording of exercises and workouts for daily useage and records",
+        "tools" : ""
 
     },
 
