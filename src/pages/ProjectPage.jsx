@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import { useRoute } from 'wouter';
 import projectDetails from '../data/projectDetails.json';
+import { motion } from 'framer-motion'
+
 
 export default function ProjectPage() {
 
@@ -18,7 +20,9 @@ export default function ProjectPage() {
     <div className="bg-[#F2F0EF] h-full text-[#282828]">
       <Navbar />
       <div className="pt-[72px] pb-[72px] w-full h-full overflow-hidden scroll-smooth ">
-        <div className="pb-12 px-8 max-w-[1440px] mx-auto ">
+        <motion.div initial={{ x: -50, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.1 ,duration: 0.9 }} className="pb-12 px-8 max-w-[1440px] mx-auto ">
           <h1 className=" pt-12 pb-8 text-6xl md:text-9xl font-bold mb-4">{project.name}</h1>
           <span className="flex max-w-[1440px] mb-4 md:gap-24 flex flex-wrap">
             <div className="pr-12">
@@ -30,11 +34,11 @@ export default function ProjectPage() {
               <p className="text-sm md:text-md font-medium mb-4">{project.timeline}</p>
             </div>
           </span>
-        </div>
+        </motion.div>
         <div className="px-8 max-w-[1440px] mx-auto">
           <div className="mx-auto block mb-4 max-w-full pb-12">
             <img src={project.resizeimage} alt={project.name}
-              className="w-full rounded-lg border object-cover h-[300px] object-[43%] md:h-[620px] md:object-center" />
+              className="w-full rounded-lg border object-cover h-[300px]  md:h-[620px] md:object-center" />
           </div>
           <div className="max-w-[1440px] pb-8">
             <h1 className="font-bold text-5xl">TOOLS</h1>
