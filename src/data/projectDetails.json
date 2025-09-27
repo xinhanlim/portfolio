@@ -1,31 +1,30 @@
 [
     {
-        "id":1,
-        "name":"WORKOUT DROPLIST",
+        "id": 1,
+        "name": "WORKOUT DROPLIST",
         "image": "/Project1Photo.jpg",
-        "resizeimage":"/Project1Resize.jpg",
+        "image1": "/Project1.1.png",
+        "image2": "/Project1.2.png",
+        "image3": "/Project1.3.png",
+        "resizeimage": "/Project1Resize.jpg",
         "description": "WORKOUT TRAINING LIST",
         "livelink": "https://workout-droplist-fe.vercel.app",
         "githubfe": "https://github.com/xinhanlim/workoutDroplist-FE",
         "githubbe": "https://github.com/xinhanlim/workoutDroplist-BE",
-        "timeline" : "3 Months",
-        "summary" : " Workout DropList is created for own personal recording of exercises and workouts for daily useage and records",
-        "tools" : " "
+        "timeline": "3 Months",
+        "summary": " Workout DropList is created for own personal loggings of exercises and workouts, it ables to add sets and reps and timing for own personal workoutflow, having to discover a new excellent workoutflow, you can SAVE / CREATE / EDIT / DELETE based on your feelings"
 
     },
-
     {
-        "id":2,
-        "name":"Leaflet Map",
+        "id": 2,
+        "name": "Leaflet Map",
         "image": "https://picsum.photos/id/237/200/300",
         "description": "Help Foodie to find nearby food"
-
     },
-        {
-        "id":3,
-        "name":"Leaflet Map",
+    {
+        "id": 3,
+        "name": "Leaflet Map",
         "image": "https://picsum.photos/id/96/200/300",
         "description": "Help Foodie to find nearby food"
-
     }
 ]
