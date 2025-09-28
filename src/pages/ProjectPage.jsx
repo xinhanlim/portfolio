@@ -27,20 +27,20 @@ export default function ProjectPage() {
           transition={{ delay: 0.1, duration: 0.9 }} className="pb-12 px-8 max-w-[1440px] mx-auto ">
           <h1 className=" pt-12 pb-8 text-6xl md:text-9xl font-bold mb-4">{project.name}</h1>
           <span className="flex max-w-[1440px] mb-4 md:gap-24 flex flex-wrap">
-            <div className="pr-12">
-              <h1 className="text-[#282828]/80 pb-2">Application</h1>
+            <div>
+              <h1 className="text-[#282828]/80 pb-4">Application</h1>
               <p className="text-sm md:text-md font-medium mb-4">{project.description}</p>
             </div>
             <div>
-              <h1 className="text-[#282828]/80 pb-2">Timeline: </h1>
+              <h1 className="text-[#282828]/80 pb-4">Timeline: </h1>
               <p className="text-sm md:text-md font-medium mb-4">{project.timeline}</p>
             </div>
             <div>
-              <h1 className="text-[#282828]/80 pb-2">Links </h1>
-              <div className="space-x-4">
-                <Link href={project.livelink} className="text-sm mb-4 font-medium tracking-tighter hover:underline underline-offset-4">Live Demo</Link>
-                <Link href={project.githubfe} className="text-sm mb-4 font-medium tracking-tighter hover:underline underline-offset-4">Front End</Link>
-                <Link href={project.githubfe} className="text-sm mb-4 font-medium tracking-tighter hover:underline underline-offset-4">Back End</Link>
+              <h1 className="text-[#282828]/80 pb-4">Links </h1>
+              <div className="space-x-4 flex flex-row ">
+                <Link href={project.livelink} className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">LIVE DEMO</Link>
+                <Link href={project.githubfe} className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">FRONT END</Link>
+                <Link href={project.githubfe} className="text-sm  md:text-md mb-4 font-medium  hover:underline underline-offset-4">BACK END</Link>
               </div>
 
             </div>
@@ -51,7 +51,14 @@ export default function ProjectPage() {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.9 }} className="max-w-[1440px] pb-12">
             <h1 className="font-bold text-5xl">TOOLS</h1>
-            <p className="py-4 text-md">React , TailwindCSS, React-Toastify, HeadlessUI , NODE-JS, MongoDB, JSONWEBTOKEN </p>
+            <div className="pt-8">
+              <h1 className="text-[#282828]/70 text-lg ">Front-End: </h1>
+              <p className="font-bold  text-md py-2">{project.tools.fe}</p>
+            </div>
+            <div className="pt-2">
+               <h1 className="text-[#282828]/70 text-lg">Back-End: </h1>
+              <p className="font-bold text-md py-2">{project.tools.be}</p>
+            </div>
           </motion.div>
           <motion.div initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
