@@ -32,11 +32,11 @@ export default function ProjectPage() {
               <p className="text-sm md:text-md font-medium mb-4">{project.description}</p>
             </div>
             <div>
-              <h1 className="text-[#282828]/80 pb-4">Timeline: </h1>
+              <h1 className="text-[#282828]/80 pb-4">Timeline</h1>
               <p className="text-sm md:text-md font-medium mb-4">{project.timeline}</p>
             </div>
             <div>
-              <h1 className="text-[#282828]/80 pb-4">Links </h1>
+              <h1 className="text-[#282828]/80 pb-4">Links</h1>
               <div className="space-x-4 flex flex-row ">
                 <a href={project.livelink} target="_blank"
                   rel="noopener noreferrer" className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">LIVE DEMO</a>

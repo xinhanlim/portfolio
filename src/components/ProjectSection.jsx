@@ -2,10 +2,13 @@ import ProjectCard from './ProjectCard';
 
 
 export default function ProjectFeature() {
-    return (<>
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 gap-8 quicksand-headerText px-8 sm:grid-cols-2 pb-[64px] md:px-4 lg:px-8" id="project">
-        <ProjectCard/>
-        </div>
-    </>
-    )
+  return (<>
+    <div className="max-w-[1440px] mx-auto grid grid-cols-1 gap-8 quicksand-headerText px-8 sm:grid-cols-2 pb-[64px] md:px-4 lg:px-8" id="project">
+      <div className="sm:col-span-2">
+        <ProjectCard />
+      </div>
+      <ProjectCard />
+    </div>
+  </>
+  )
 }
