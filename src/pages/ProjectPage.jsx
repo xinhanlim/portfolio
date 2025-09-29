@@ -38,9 +38,12 @@ export default function ProjectPage() {
             <div>
               <h1 className="text-[#282828]/80 pb-4">Links </h1>
               <div className="space-x-4 flex flex-row ">
-                <Link href={project.livelink} className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">LIVE DEMO</Link>
-                <Link href={project.githubfe} className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">FRONT END</Link>
-                <Link href={project.githubfe} className="text-sm  md:text-md mb-4 font-medium  hover:underline underline-offset-4">BACK END</Link>
+                <a href={project.livelink} target="_blank"
+                  rel="noopener noreferrer" className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">LIVE DEMO</a>
+                <a href={project.githubfe} target="_blank"
+                  rel="noopener noreferrer" className="text-sm md:text-md mb-4 font-medium  hover:underline underline-offset-4">FRONT END</a>
+                <a href={project.githubbe} target="_blank"
+                  rel="noopener noreferrer" className="text-sm  md:text-md mb-4 font-medium  hover:underline underline-offset-4">BACK END</a>
               </div>
 
             </div>
@@ -56,15 +59,15 @@ export default function ProjectPage() {
               <p className="font-bold  text-md py-2">{project.tools.fe}</p>
             </div>
             <div className="pt-2">
-               <h1 className="text-[#282828]/70 text-lg">Back-End: </h1>
+              <h1 className="text-[#282828]/70 text-lg">Back-End: </h1>
               <p className="font-bold text-md py-2">{project.tools.be}</p>
             </div>
             <div className="pt-2">
-               <h1 className="text-[#282828]/70 text-lg">Dev & Build </h1>
+              <h1 className="text-[#282828]/70 text-lg">Dev & Build </h1>
               <p className="font-bold text-md py-2">{project.tools.dev}</p>
             </div>
             <div className="pt-2">
-               <h1 className="text-[#282828]/70 text-lg">Hosting</h1>
+              <h1 className="text-[#282828]/70 text-lg">Hosting</h1>
               <p className="font-bold text-md py-2">{project.tools.hosting}</p>
             </div>
           </motion.div>
