@@ -19,5 +19,28 @@
             "dev": "Vite, Nodemon",
             "hosting": "Hosting: Vercel (frontend), Render (backend)"
         }
+    },
+    {
+        "id": 2,
+        "name": "IN PROGRESS",
+        "image": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "resizeimage": "",
+        "description": "",
+        "livelink": "",
+        "githubfe": "",
+        "githubbe": "",
+        "timeline": "",
+        "summary": "",
+        "tools": {
+            "fe": "",
+            "be": "",
+            "dev": "",
+            "hosting": ""
+        }
     }
+
+
 ]
