@@ -19,17 +19,5 @@
             "dev": "Vite, Nodemon",
             "hosting": "Hosting: Vercel (frontend), Render (backend)"
         }
-    },
-    {
-        "id": 2,
-        "name": "Leaflet Map",
-        "image": "https://picsum.photos/id/237/200/300",
-        "description": "Help Foodie to find nearby food"
-    },
-    {
-        "id": 3,
-        "name": "Leaflet Map",
-        "image": "https://picsum.photos/id/96/200/300",
-        "description": "Help Foodie to find nearby food"
     }
 ]
