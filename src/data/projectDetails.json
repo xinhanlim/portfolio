@@ -14,8 +14,10 @@
         "timeline": "3 MONTHS",
         "summary": " Workout DropList is created for own personal loggings of exercises and workouts, it ables to add sets and reps and timing for own personal workoutflow, having to discover a new excellent workoutflow, you can SAVE / CREATE / EDIT / DELETE based on your feelings",
         "tools": {
-            "fe": "React, Tailwind-CSS, Headless-UI, React-Toastify, Wouter",
-            "be": "MongoDB, Express, NodeJS, Bcrypt, JSONwebtoken, CORS, Nodemon "
+            "fe": "React, Wouter, Tailwind CSS, Headless UI, Jotai, Axios, Formik, Yup, React-Toastify, jwt-decode",
+            "be": "Node.js, Express, MongoDB, JWT, bcrypt, CORS",
+            "dev": "Vite, Nodemon",
+            "hosting": "Hosting: Vercel (frontend), Render (backend)"
         }
     },
     {

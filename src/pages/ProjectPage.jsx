@@ -59,6 +59,14 @@ export default function ProjectPage() {
                <h1 className="text-[#282828]/70 text-lg">Back-End: </h1>
               <p className="font-bold text-md py-2">{project.tools.be}</p>
             </div>
+            <div className="pt-2">
+               <h1 className="text-[#282828]/70 text-lg">Dev & Build </h1>
+              <p className="font-bold text-md py-2">{project.tools.dev}</p>
+            </div>
+            <div className="pt-2">
+               <h1 className="text-[#282828]/70 text-lg">Hosting</h1>
+              <p className="font-bold text-md py-2">{project.tools.hosting}</p>
+            </div>
           </motion.div>
           <motion.div initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
