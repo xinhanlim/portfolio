@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export default function ProjectCard() {
     return (<>
         {projectDetails.map((project) => (
-            <figure key={project.id}>
+            <figure key={project.id} className="first:sm:col-span-2 first:lg:col-span-3">
                 <Link href={`/project/${project.id}`} >
                     <motion.div initial={{ y: -40, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
@@ -22,7 +22,7 @@ export default function ProjectCard() {
                     <a href={project.githubfe} target="_blank"
                         rel="noopener noreferrer" className="text-md text-bold tracking-tighter hover:underline underline-offset-4">Back End</a>
                 </figcaption>
-            </figure>
+            </figure>   
         ))}
 
     </>)
