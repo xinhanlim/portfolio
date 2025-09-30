@@ -55,7 +55,7 @@ export default function Navbar() {
                             <Link href="/" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/16PVLEy3B6BinNo8mSkaDQr7obrpJj378/view?usp=sharing" target="_blank"
+                            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:8a89905d-c068-581e-9c38-0afcb8ad5a38" target="_blank"
                                 rel="noopener noreferrer"className="hover:underline transition-all duration-300" >RESUME</a>
                         </li>
                         <li>
