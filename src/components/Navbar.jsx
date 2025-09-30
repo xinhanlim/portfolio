@@ -89,7 +89,7 @@ export default function Navbar() {
                         </li>
                         <li className="w-full">
                             <Link
-                                href="/"
+                                href="/about"
                                 className="block w-full hover:underline transition-all duration-300"
                             >
                                 ABOUT

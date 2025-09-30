@@ -8,8 +8,8 @@ export default function ProjectCard() {
         {projectDetails.map((project) => (
             <figure key={project.id} className="first:sm:col-span-2 first:lg:col-span-3">
                 <Link href={`/project/${project.id}`} >
-                    <motion.div initial={{ y: -40, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                    <motion.div initial={{ opacity: 0 }}
+                        animate={{opacity: 1 }}
                         transition={{ delay: 0.7, duration: 0.9 }} className="group relative  overflow-hidden rounded-md border border-[#282828]/20">
                         <img src={project.image} alt={project.name} className="w-full object-cover rounded-lg max-h-[700px] shadow-sm transform transition duration-300 ease-in-out hover:scale-103" />
                     </motion.div>
