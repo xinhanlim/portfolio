@@ -55,7 +55,8 @@ export default function Navbar() {
                             <Link href="/" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
                         </li>
                         <li>
-                            <a href="/" className="hover:underline transition-all duration-300" >RESUME</a>
+                            <a href="https://drive.google.com/file/d/16PVLEy3B6BinNo8mSkaDQr7obrpJj378/view?usp=sharing" target="_blank"
+                                rel="noopener noreferrer"className="hover:underline transition-all duration-300" >RESUME</a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/xinhanlim/" target="_blank"
