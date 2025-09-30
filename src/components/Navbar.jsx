@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'wouter'
 import { useState } from 'react'
+import
 
 
 
@@ -55,7 +56,7 @@ export default function Navbar() {
                             <Link href="/" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
                         </li>
                         <li>
-                            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:8a89905d-c068-581e-9c38-0afcb8ad5a38" target="_blank"
+                            <a href="/LIMXINHANRESUME.pdf" target="_blank"
                                 rel="noopener noreferrer"className="hover:underline transition-all duration-300" >RESUME</a>
                         </li>
                         <li>
