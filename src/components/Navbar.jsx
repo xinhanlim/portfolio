@@ -76,9 +76,9 @@ export default function Navbar() {
             </div>
 
             {isOpen && (
-                <div className="md:hidden w-full px-8 pb-4">
-                    <ul className="flex flex-col items-start h-screen gap-32 h-screen pt-16">
-                        <li className="w-full flex quicksand-headerText" >
+                <div className="md:hidden w-full px-8 pb-4 justify-center">
+                    <ul className="flex flex-col items-center text-center gap-10 h-screen pt-16">
+                        <li className="w-full flex items-center quicksand-headerText " >
                             <Link
                                 href="/#project"
                                 className=" block w-full hover:underline transition-all duration-300"
