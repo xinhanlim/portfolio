@@ -29,16 +29,6 @@ export default function Navbar() {
             }
         }
     };
-    const handleAboutClick = (hp) => {
-        if (location === '/') {
-            hp.preventDefault();
-            const scroll = document.querySelector('#home');
-            if (scroll) {
-                scroll.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-    }
-
 
     return (<>
         <nav className="fixed z-50 quicksand-navBarText flex flex flex-col items-center  w-full transition duration-300 bg-[#F2F0EF]">
@@ -52,7 +42,7 @@ export default function Navbar() {
                             <Link href="/#project" className="hover:underline transition-all duration-300" onClick={handleWorkClick}>PROJECT</Link>
                         </li>
                         <li>
-                            <Link href="/about" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
+                            <Link href="/about" className="hover:underline transition-all duration-300">ABOUT</Link>
                         </li>
                         <li>
                             <a href="/LIMXINHANRESUME.pdf" target="_blank"
@@ -91,7 +81,7 @@ export default function Navbar() {
                         <li className="w-full flex quicksand-headerText" >
                             <Link
                                 href="/#project"
-                                className=" text-4xl block w-full hover:underline transition-all duration-300"
+                                className=" block w-full hover:underline transition-all duration-300"
                                 onClick={handleWorkClick}
                             >
                                 PROJECT
@@ -100,8 +90,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <Link
                                 href="/"
-                                className="text-4xl block w-full hover:underline transition-all duration-300"
-                                onClick={handleAboutClick}
+                                className="block w-full hover:underline transition-all duration-300"
                             >
                                 ABOUT
                             </Link>
@@ -109,7 +98,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <a
                                 href="/"
-                                className="text-4xl block w-full hover:underline transition-all duration-300"
+                                className="block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 RESUME
@@ -120,7 +109,7 @@ export default function Navbar() {
                                 href="https://www.linkedin.com/in/xinhanlim/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-4xl  block w-full hover:underline transition-all duration-300"
+                                className="block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 LINKEDIN
@@ -129,7 +118,7 @@ export default function Navbar() {
                         <li className="w-full">
                             <a
                                 href="mailto:xhxhan00@gmail.com"
-                                className="text-4xl block w-full hover:underline transition-all duration-300"
+                                className="block w-full hover:underline transition-all duration-300"
                                 onClick={() => setIsOpen(false)}
                             >
                                 HOTMAIL
