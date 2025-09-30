@@ -52,7 +52,7 @@ export default function Navbar() {
                             <Link href="/#project" className="hover:underline transition-all duration-300" onClick={handleWorkClick}>PROJECT</Link>
                         </li>
                         <li>
-                            <Link href="/" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
+                            <Link href="/about" className="hover:underline transition-all duration-300" onClick={handleAboutClick}>ABOUT</Link>
                         </li>
                         <li>
                             <a href="/LIMXINHANRESUME.pdf" target="_blank"
