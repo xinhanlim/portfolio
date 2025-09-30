@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar";
 import { useRoute } from 'wouter';
 import projectDetails from '../data/projectDetails.json';
 import { motion } from 'framer-motion'
-import { Link } from "wouter";
 
 
 
